@@ -1,5 +1,5 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/molokai.vim
+" Filename: autoload/lightline/colorscheme/monokai.vim
 " Author: challsted
 " License: MIT License
 " Last Change: 2020/02/15 20:57:45.
@@ -33,4 +33,4 @@ let s:p.tabline.middle = [ [ s:pink, s:black] ]
 let s:p.tabline.right = copy(s:p.normal.right)
 let s:p.tabline.tabsel = [ [ s:black, s:pink ] ]
 
-let g:lightline#colorscheme#molokai#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#monokai#palette = lightline#colorscheme#flatten(s:p)
